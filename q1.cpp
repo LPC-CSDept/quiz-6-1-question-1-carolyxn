@@ -36,6 +36,7 @@ int getinput(int &a, int &b)
 	int num1, num2;
 	cout << "Enter in two integers values to swap them: ";
 	cin >> num1 >> num2;
+	return num1, num2;
 }
 
 int getinput(float &c, float &d)
@@ -43,15 +44,16 @@ int getinput(float &c, float &d)
 	float num1, num2;
 	cout << "Enter in two floats values to swap them: ";
 	cin >> num1 >> num2;
+	return num1, num2;
 }
 
 
 void swapTwoValues(int &a, int &b)
 {
 	int num1, num2;
-	int a = num1, b = num2;
-	num1 = b; 
-	num2 = a; 
+	int c = num1, d = num2;
+	num1 = d; 
+	num2 = c; 
 }
 
 void swapTwoValues(float &c, float &d)
