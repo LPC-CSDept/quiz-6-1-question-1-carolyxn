@@ -31,14 +31,14 @@ int main()
 // Implement all your functions here
 // ******************************
 
-int getinput(int n1, int n2)
+int getinput(int &n1, int &n2)
 {
 	int num1, num2;
 	cout << "Enter in two integers values to swap them: ";
 	cin >> num1 >> num2;
 }
 
-int getinput(float n1, float n2)
+int getinput(float &n1, float &n2)
 {
 	float num1, num2;
 	cout << "Enter in two floats values to swap them: ";
@@ -46,7 +46,7 @@ int getinput(float n1, float n2)
 }
 
 
-void swapTwoValues(int n1, int n2)
+void swapTwoValues(int &n1, int &n2)
 {
 	int num1, num2;
 	int a = num1, b = num2;
@@ -54,7 +54,7 @@ void swapTwoValues(int n1, int n2)
 	num2 = a; 
 }
 
-void swapTwoValues(float n1, float n2)
+void swapTwoValues(float &n1, float &n2)
 {
 	int num1, num2;
 	int a = num1, b = num2; 
