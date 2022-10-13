@@ -27,6 +27,21 @@ int main()
 // Implement all your functions here
 // ******************************
 
+void getinput(int num1, int num2)
+{
+	int num1, num2;
+	cout << "Enter in two integers values to swap them: ";
+	cin >> num1 >> num2;
+}
+
+void getinput(float num1, float num2)
+{
+	float num1, num2;
+	cout << "Enter in two floats values to swap them: ";
+	cin >> num1 >> num2;
+}
+
+
 void swapTwoValues(int num1, int num2)
 {
 	int a = num1, b = num2;
