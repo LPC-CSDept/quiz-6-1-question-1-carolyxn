@@ -52,7 +52,7 @@ void swapTwoValues(int &num1, int &num2)
 
 void swapTwoValues(float &num1, float &num2)
 {
-	int a = num1, b = num2; 
+	float a = num1, b = num2; 
 	num1 = b; 
 	num2 = a;
 }
