@@ -32,32 +32,26 @@ int main()
 // Implement all your functions here
 // ******************************
 
-void getinput(int &a, int &b)
+void getinput(int &num1, int &num2)
 {
-	int num1, num2;
-	cout << "Enter in two integers values to swap them: ";
 	cin >> num1 >> num2;
 }
 
-void getinput(float &c, float &d)
+void getinput(float &num1, float &num2)
 {
-	float num1, num2;
-	cout << "Enter in two floats values to swap them: ";
 	cin >> num1 >> num2;
 }
 
 
-void swapTwoValues(int &a, int &b)
+void swapTwoValues(int &num1, int &num2)
 {
-	int num1, num2;
-	int c = num1, d = num2;
-	num1 = d; 
-	num2 = c; 
+	int a = num1, b = num2;
+	num1 = b; 
+	num2 = a; 
 }
 
-void swapTwoValues(float &c, float &d)
+void swapTwoValues(float &num1, float &num2)
 {
-	int num1, num2;
 	int a = num1, b = num2; 
 	num1 = b; 
 	num2 = a;
