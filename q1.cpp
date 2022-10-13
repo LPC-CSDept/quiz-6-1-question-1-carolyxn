@@ -5,10 +5,11 @@ using namespace std;
 //********************
 // Declare Function Prototypes
 //********************
-void getinput(int &, int &)
-void getinput(float &, float &)
 void swapTwoValues(int &, int &)
 void swapTwoValues(float &, float &)
+void getinput(int &, int &)
+void getinput(float &, float &)
+
 
 
 int main()
