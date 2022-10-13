@@ -25,7 +25,7 @@ int main()
 	getinput(fnum1, fnum2);
 	cout << setw(5) << fnum1 << setw(5) << fnum2 << setw(5) << endl;
 	swapTwoValues(fnum1, fnum2);
-	cout << fixed << setprecision(2) << fnum1 << fixed << setprecision(2) << fnum2 << setw(5) << endl;
+	cout << setw(5) << fnum1 << setw(5) << fnum2 << setw(5) << endl;
 }
 
 // ******************************
